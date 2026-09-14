@@ -2,6 +2,16 @@
 
 A dependency-free Node.js CLI for validating and rendering architecture manifests.
 
+## Quick start
+
+Requires Node.js 18 or later. From a checkout of this repository:
+
+```bash
+npm test
+npm exec -- archcheck validate examples/valid.json
+npm exec -- archcheck render examples/valid.json --output architecture.svg
+```
+
 ## Usage
 
 ```bash
