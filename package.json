@@ -1,6 +1,6 @@
 {
   "name": "axiom-archcheck",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "Validate static architecture manifests and render deterministic SVG diagrams.",
   "type": "module",
