@@ -1,0 +1,41 @@
+name: Paid pilot interest
+description: Request a fixed-scope architecture-contract review from AXIOM.
+title: "[paid pilot]: "
+labels: ["paid-pilot"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Axiom Archcheck validates static manifests and renders deterministic SVG.
+        It does not inspect production systems. Do not include credentials,
+        customer data, or other secrets in this public issue.
+  - type: textarea
+    id: workflow
+    attributes:
+      label: Git-based architecture workflow
+      description: What repository or review workflow needs an architecture contract?
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Drift or review problem
+      description: What can currently go wrong, and what outcome would help?
+    validations:
+      required: true
+  - type: textarea
+    id: sample
+    attributes:
+      label: Safe sample availability
+      description: Can you provide a public or redacted, non-secret manifest/sample?
+    validations:
+      required: true
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Proposed pilot scope
+      options:
+        - One repository and one architecture contract review (US$250 hypothesis)
+        - I need a different scope; please discuss first
+    validations:
+      required: true
