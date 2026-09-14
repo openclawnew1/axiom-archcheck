@@ -1,0 +1,29 @@
+name: Developer feedback
+description: Share feedback after trying Axiom Archcheck.
+title: "feedback: "
+labels: [feedback]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for trying Axiom Archcheck. It validates static manifests and
+        renders deterministic SVG; it does not inspect a running system.
+  - type: textarea
+    id: workflow
+    attributes:
+      label: What were you trying to do?
+      description: Describe the documentation or CI workflow you were testing.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: What happened?
+      description: Include the command, expected result, actual result, and a minimal manifest when safe to share.
+    validations:
+      required: true
+  - type: textarea
+    id: improvement
+    attributes:
+      label: What would make it more useful?
+      description: Tell us about missing validation, output, documentation, or integration guidance.
