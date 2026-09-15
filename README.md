@@ -2,6 +2,14 @@
 
 A dependency-free Node.js CLI for validating and rendering architecture manifests.
 
+> **Paid pilot — architecture-contract review.** AXIOM offers a fixed-scope,
+> one-repository architecture review for teams that keep architecture docs in
+> Git: validation/render CI guidance plus a written drift-risk review
+> (current price hypothesis: **US$250**). It is a document review, **not** a
+> hosted runtime-discovery service. To discuss fit, open a
+> [paid-pilot interest issue](../../issues/new?template=paid-pilot.yml). Do
+> **not** include credentials or private production data.
+
 ## Quick start
 
 Requires Node.js 18 or later. From a checkout of this repository:
@@ -50,3 +58,11 @@ Run the test suite with:
 ```bash
 node --test
 ```
+
+## Paid pilot
+
+AXIOM is testing a fixed-scope architecture-contract review for teams that
+maintain architecture documentation in Git. It covers one repository, a
+non-secret or redacted static manifest, validation/render CI guidance, and a
+written drift-risk review. The current price hypothesis is US$250. To discuss
+a fit, open a [paid-pilot interest issue](../../issues/new?template=paid-pilot.yml).
